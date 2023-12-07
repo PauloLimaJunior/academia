@@ -52,12 +52,13 @@
 			<version>${neo4j-ogm.version}</version>
 		</dependency>
 
-		<!-- Neo4j Java Driver -->
+		<!-- https://mvnrepository.com/artifact/org.neo4j.driver/neo4j-java-driver -->
 		<dependency>
-			<groupId>org.neo4j.driver</groupId>
-			<artifactId>neo4j-java-driver</artifactId>
-			<version>${neo4j-java-driver.version}</version>
+   			 <groupId>org.neo4j.driver</groupId>
+    		         <artifactId>neo4j-java-driver</artifactId>
+   			 <version>5.15.0</version>
 		</dependency>
+
 		<dependency>
 			<groupId>javax.validation</groupId>
 			<artifactId>validation-api</artifactId>
